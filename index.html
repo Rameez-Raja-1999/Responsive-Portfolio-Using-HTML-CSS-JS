@@ -22,8 +22,10 @@
 
         <section id="home" class="hero-section">
             <div class="hero-content">
-                <p class="greeting">Hello, world! My name is...</p>
+                <p class="greeting">Hello, My name is...</p>
                 <h1>Rameez Raja</h1>
+                <span id="element"></span>
+
                 <p class="tagline">A full-stack web Developer focused on building elegant, performant, and accessible web experiences.</p>
                 <a href="#work" class="btn primary-btn">View My Work <i class="fas fa-arrow-right"></i></a>
             </div>
@@ -57,18 +59,22 @@
             <div class="skills-grid">
                 <div class="skill-card">
                     <h3>Frontend</h3>
+                    <br>
                     <p>HTML5, CSS3, BOOTSTRAP, JavaScript, Tailwind CSS, React.js</p>
                 </div>
                 <div class="skill-card">
                     <h3>Backend</h3>
+                    <br>
                     <p>Node.js, Express, REST APIs</p>
                 </div>
                 <div class="skill-card">
                     <h3>Database</h3>
+                    <br>
                     <p>MongoDB, MySQL</p>
                 </div>
                 <div class="skill-card">
                     <h3>Tools</h3>
+                    <br>
                     <p>Git, Github, VsCode, Vite</p>
                 </div>
             </div>
@@ -108,6 +114,13 @@
         </section>
     </main>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Frontend Developer</i>.', '<i>WordPress Developer.</i>'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
 
 </html>
