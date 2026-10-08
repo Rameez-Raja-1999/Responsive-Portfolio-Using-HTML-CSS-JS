@@ -1,4 +1,4 @@
-## Output
+## OutputS
 
 
 ![Output](assests/output1.png)
